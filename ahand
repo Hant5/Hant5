@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen-Tuan-Anh</title>
+    <link rel="icon" href="" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="./asset/css/ahand.css">
+    <link rel="stylesheet" href="./asset/Font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="main">
+
+        <!-- HEADER -->
+        <div id="header">
+
+            <!-- Begin : Nav -->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">
+                        More
+                        <i class="nav-down-icon ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="">Merchandise</a></li>
+                        <li><a href="">Extras</a></li>
+                         <li><a href="">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- Search Button -->
+            <div class="search-btn">
+                <i class="search-icon ti-search"></i>
+            </div>
+            
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon ti-menu"></i>
+            </div>
+        </div>
+
+        <!-- SLIDER -->
+        <div id="slider" >
+            <div class="text-content">
+                <h2 class="text-heading">Hà Nội</h2>
+                <div class="text-description">We had the best time to play at Ha Noi!</div>
+            </div>
+        </div>
+
+        <!-- CONTENT -->
+        <div id="content">
+
+            <!-- ABOUT -->
+            <div id="hobbies" class="content-section">
+                <h2 class="section-heading">THE HOBBIES</h2>
+                <p class="section-sub-heading">We love Design</p>
+                <p class="about-text">I also wondered between learning multimedia and information technology. I decided study multimedia at FPT Arena, so I understood the school and it was really a good experience because the learning environment was very good.</p>
+
+            <!-- MEMBER LIST -->
+                <div class="member-list row">
+                    <div class="col col-three s-col-full mt-32 text-center">
+                          <p class="member-name">Career Photography</p>
+                          <img src="./asset/IMG/Content/Member/member1.jpg" alt="name" class="member-ava">
+                    </div>
+
+                    <div class="col col-three s-col-full mt-32 text-center">
+                        <p class="member-name">Design</p>
+                          <img src="./asset/IMG/Content/Member/member2.jpg" alt="name" class="member-ava">
+                    </div>
+
+                    <div class="col col-three s-col-full mt-32 text-center">
+                        <p class="member-name">Sport</p>
+                        <img src="./asset/IMG/Content/Member/member3.jpg" alt="name" class="member-ava">
+                    </div>
+                </div>
+            </div>
+
+            <!-- TOUR DATES -->
+            <div id="tour" class="tour-section">
+                <div class="content-section">
+                    <h2 class="section-heading text-white">TOUR DATES</h2>
+                    <p class="section-sub-heading text-white">Remember to leave your beautiful signs!</p>
+                    
+                 <!-- TICKET -->
+                    <ul class="ticket-book">
+                        <li>September <span class="sold-out">Sold out</span></li>
+                        <li>October <span class="sold-out">Sold out</span></li>
+                        <li>November <span class="quantity">3</span></li>
+                    </ul>
+                
+                <!-- PLACES -->
+                <div class="places-list row">
+                    <div class="col col-three s-col-full mt-16">
+                        <img src="./asset/IMG/Content/TOUR DATES/tourdate1.jpg" alt="Hà Nội" class="places-img">
+                        <div class="places-body s-col-full">
+                            <h3 class="places-heading">Hà Nội</h3>
+                            <p class="places-time">Fri 29 July 2022</p>
+                            <p class="places-disc">All have beautiful unforgettable memories.</p>
+                            <button class="btn full-width js-buy-ticket">About me</button>
+                        </div>
+                    </div>
+
+                    <div class="col col-three s-col-full mt-16">
+                        <img src="./asset/IMG/Content/TOUR DATES/tourdate2.jpg" alt="Tam Đảo" class="places-img">
+                        <div class="places-body s-col-full">
+                            <h3 class="places-heading">Tam Đảo</h3>
+                            <p class="places-time">Mon 2 May 2022</p>
+                            <p class="places-disc">All have beautiful unforgettable memories.</p>
+                            <button class="btn  full-width js-buy-ticket">About me</button>
+                        </div>
+                    </div>
+
+                    <div class="col col-three s-col-full mt-16">
+                        <img src="./asset/IMG/Content/TOUR DATES/tourdate3.jpg" alt="Cửa Lò" class="places-img">
+                        <div class="places-body s-col-full">
+                            <h3 class="places-heading">Cửa Lò</h3>
+                            <p class="places-time">Sun 2 July 2022</p>
+                            <p class="places-disc">All have beautiful unforgettable memories.</p>
+                            <button class="btn full-width js-buy-ticket">About me</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- CONTACT -->
+            <div id="contact" class="contact-section ">
+                <h2 class="section-heading">CONTACT</h2>
+                <p class="section-sub-heading">Client? Drop a note!</p>
+
+                <div class="contact-content row">
+                    <div class="col col-two contact-list s-col-full">
+                        <p><i class="ti-location-pin"></i>Hà Nội, VN</p>
+                        <p><i class="ti-mobile"></i>Phone: <a href="callto:+84 99999999">+84 99999999</a></p>
+                        <p><i class="ti-email"></i>Email: <a href="mailto:mail@mail.com">mail@mail.com</a></p>
+                    </div>
+                    <div class="col col-two s-col-full contact-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-two s-col-full s-mt-8">
+                                    <input type="text" placeholder="Name" required="Vui lòng điền vào ô này." class="form-control">
+                                </div>
+
+                                <div class="col col-two s-col-full s-mt-8">
+                                    <input type="email" placeholder="Email" required="Vui lòng điền vào ô này." class="form-control">
+                                </div>
+                            </div>
+                
+                            <div class="row">
+                                <div class="col col-full mt-8">
+                                    <input type="text" placeholder="Message" required="Vui lòng điền vào ô này." class="form-control">
+                                </div>
+                            </div>
+                            
+                            </div>
+                                <input class="btn pull-right full-width" type="submit" value="SEND">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- MAP -->
+            <div class="map-section">
+                <img src="./asset/IMG/Content/Map/map.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div id="footer"> 
+            <div class="social-list">
+                <a href="https://www.facebook.com/"><i class="ti-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="ti-instagram"></i></a>
+                <a href="https://www.youtube.com/"><i class="ti-youtube"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+                <a href="#"><i class="ti-twitter-alt"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+            </div>
+            <p class="copyright">Code by <a href="">Nguyễn Tuấn Anh</a></p>
+        </div>
+    </div>
+</body>
+</html>
